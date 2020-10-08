@@ -24,6 +24,11 @@ class Form extends Component {
         const lead = { name, email, message };
 
         this.props.addLead(lead);
+        this.setState({
+            name: '',
+            email: '',
+            message: ''
+        });
     }
 
     render() {
