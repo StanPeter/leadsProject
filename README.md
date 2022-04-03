@@ -3,6 +3,8 @@ learning more about connection of React + Django
 
 A full stack web application using React on the FE and Django, Sq lite on the server
 
+Uses FE built inside BE yet its not the same as SOAP structure
+
 Instructions:
 
     1. Create a new environment                                 "  python -m venv venv  " 
